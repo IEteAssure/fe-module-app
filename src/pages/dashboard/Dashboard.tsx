@@ -1,0 +1,17 @@
+import { useNavigate } from "react-router-dom";
+import { Button } from "../../components/button/Button";
+
+import "./Dashboard.css";
+
+export const Dashboard = () => {
+  const navigate = useNavigate();
+
+  return (
+    <>
+      <h2>Frontend Module </h2>
+      <div className="dashboard">
+        <Button onClick={() => navigate("/class-8")}>Class 8</Button>
+      </div>
+    </>
+  );
+};
