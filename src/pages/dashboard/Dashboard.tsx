@@ -11,6 +11,7 @@ export const Dashboard = () => {
       <h2>Frontend Module </h2>
       <div className="dashboard">
         <Button onClick={() => navigate("/class-8")}>Class 8</Button>
+        <Button onClick={() => navigate("/class-9")}>Class 9</Button>
       </div>
     </>
   );
