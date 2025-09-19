@@ -12,6 +12,7 @@ export const Dashboard = () => {
       <div className="dashboard">
         <Button onClick={() => navigate("/class-8")}>Class 8</Button>
         <Button onClick={() => navigate("/class-9")}>Class 9</Button>
+        <Button onClick={() => navigate("/class-10")}>Class 10</Button>
       </div>
     </>
   );
