@@ -7,6 +7,7 @@ import ProtectedRoute from "./pages/class10/ProtectedRoute";
 import UserProfile from "./pages/class10/UserProfile";
 import AccessForbidden from "./pages/class10/AccessForbidden";
 import NotFound from "./pages/class10/NotFound";
+import { Class11 } from "./pages/class11/Class11";
 
 const App = () => {
   const isAuthenticated = false;
@@ -25,6 +26,7 @@ const App = () => {
             </ProtectedRoute>
           }
         />
+        <Route path="/class-11" element={<Class11 />} />
         <Route path="/forbidden" element={<AccessForbidden />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
